@@ -5,7 +5,7 @@ class TextStyles{
   static TextStyle title = TextStyle(
     fontSize: 24.sp,
     fontWeight: FontWeight.bold,
-    color: const Color(0xFF000000), // Black color
+    color: const Color(0xFFFFFFFF), // Black color
   );
   static TextStyle subtitle = TextStyle(
     fontSize: 18.sp,

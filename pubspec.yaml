@@ -43,7 +43,10 @@ dependencies:
   # Contains code to deal with internationalized text
   intl: any
   # A predictable state management library that helps implement the BLoC (Business Logic Component) design pattern
-  bloc: ^9.0.0
+  flutter_bloc: ^9.1.1
+  # A QR code generation library for Dart and Flutter
+  qr_flutter: ^4.1.0
+
 
 dev_dependencies:
   flutter_test:
