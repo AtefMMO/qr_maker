@@ -11,7 +11,7 @@ class QrContainer extends StatelessWidget {
     return Container(
       height: 230.h,
       width: 250.w,
-      decoration: BoxDecoration(
+      decoration: BoxDecoration(border: Border.all(color: Colors.grey, width: 2.w),
         gradient: LinearGradient(
           colors: [firstColor, secondColor],
           begin: Alignment.topLeft,

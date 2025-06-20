@@ -1,6 +1,5 @@
-import 'package:bloc/bloc.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:meta/meta.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 part 'qr_maker_state.dart';
 
@@ -11,18 +10,27 @@ class QrMakerCubit extends Cubit<QrMakerState> {
   void changeText(String newText) {
     text = newText;
   }
-  QrImageView qrImage= QrImageView(
+
+  QrImageView qrImage = QrImageView(
     size: 300.0,
     data: '',
     gapless: false,
   );
   generateQRCode() {
-   qrImage= QrImageView(
+    qrImage = QrImageView(
       size: 300.0,
       data: text,
       gapless: false,
     );
-   emit(QrImageChanged(qrImage));
+    emit(QrImageChanged());
   }
 
+  Color firstColor = Colors.white;
+  Color secondColor = Colors.white;
+  changeColor(Color fColor, Color sColor) {
+    firstColor = fColor;
+    secondColor = sColor;
+    emit(ColorChanged());
+    print('Color changed to: $firstColor, $secondColor');
+  }
 }
