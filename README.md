@@ -14,6 +14,7 @@ Includes a feature to change the app’s theme color using color buttons.
 
 ## Demo
 Apk: https://www.mediafire.com/file/7mgjwe9klouaqcl/app-release.apk/file
+
 Video: https://youtube.com/shorts/uX_29kqCN3w?feature=share
 
 ---
@@ -23,3 +24,15 @@ Video: https://youtube.com/shorts/uX_29kqCN3w?feature=share
 1️⃣ Clone the repository:
 ```bash
 git clone https://github.com/AtefMMO/qr-code-generator-app.git
+
+2️⃣ Navigate into the project directory:
+```bash
+cd qr-code-generator-app
+
+3️⃣ Get dependencies:
+```bash
+flutter pub get
+
+4️⃣ Run the app:
+```bash
+flutter run
