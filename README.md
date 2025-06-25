@@ -26,13 +26,10 @@ Video: https://youtube.com/shorts/uX_29kqCN3w?feature=share
 git clone https://github.com/AtefMMO/qr-code-generator-app.git
 
 2️⃣ Navigate into the project directory:
-```bash
 cd qr-code-generator-app
 
 3️⃣ Get dependencies:
-```bash
 flutter pub get
 
 4️⃣ Run the app:
-```bash
 flutter run
