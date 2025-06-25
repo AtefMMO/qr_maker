@@ -27,7 +27,7 @@ git clone https://github.com/AtefMMO/qr_maker.git
 ```
 2️⃣ Navigate into the project directory:
 ```bash
-cd qr-code-generator-app
+cd qr_maker-app
 ```
 3️⃣ Get dependencies:
 ```bash
