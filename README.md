@@ -23,7 +23,7 @@ Video: https://youtube.com/shorts/uX_29kqCN3w?feature=share
 
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/AtefMMO/qr-code-generator-app.git
+git clone https://github.com/AtefMMO/qr_maker.git
 ```
 2️⃣ Navigate into the project directory:
 ```bash
