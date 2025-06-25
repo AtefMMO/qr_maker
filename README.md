@@ -13,7 +13,7 @@ Includes a feature to change the app’s theme color using color buttons.
 ---
 
 ## Demo
-Apk: https://www.mediafire.com/file/7mgjwe9klouaqcl/app-release.apk/file
+APK: https://www.mediafire.com/file/7mgjwe9klouaqcl/app-release.apk/file
 
 Video: https://youtube.com/shorts/uX_29kqCN3w?feature=share
 
